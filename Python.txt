@@ -1,0 +1,126 @@
+
+TIPOS PRIMITIVOS 
+
+INT = Número inteiro EX:. 5 - 6 - 1 - (-9) - 445 - 22223     EX:. 5 + 5 = 10
+FLOAT = Número com .0 EX:. 5.0 - 6.0 - 1.0 - (-9.0) - 22223.0    EX:. 5.0 + 5.0 = 10.0    -------- LIMITAR FLOAT print(f'A raiz quadrada de {n:.2f} é igual há {n**(1/2)}')
+BOOL = Apenas diz (TRUE) ou (FALSE) 
+STR = Quando não é indicada nenhm outro tipo primitivo esse e naturalemnte acionado EX:. 5 + 5 =55
+
+n1=int(input('DIGITE UM VALOR: ')
+n2=int(input('DIGITE OUTRO VALOR')
+
+S=n1+n2
+M=n1*n2
+D=n1/n2
+
+PRINT ('a soma vale' S)
+PRINT ('a soma vale {}'.format(s))
+PRINT ('a soma entre {} e {} vale {}.format(n1,n2,s))
+PRINT ('a soma entre {2} e {1} vale {0}.format(n1,n2,s))
+sendo no caso acima o n1=0 o n2=1 e o s=2 pois vem respectivo a sua ordem de colocação.
+
+PRINT(TYPE(N1)) = Usada para descobrir o tipo primitivo, sendo nesse caso o tipo primitivo 'INT'.
+
+  RAIZ QUADRADA = N**(1/2)
+  RAIZ CUBICAA = N**(1/3)
+Ex.:
+n=int(input('Digite um número: '))
+print(f'A raiz quadrada de {n} é igual há {n**(1/2)}')
+
+print(f'A raiz quadrada de {n:.2f} é igual há {pow(n, (1/2))}')
+
+
+
+--------     ------------------------- ---------------------- --------------------------------------------------
+
+OPERAÇÕES ARITMÉTICAS
+                        "ordem de precedência"
+
++ - Adição                    () 1º
+- - Subtração                 ** 2º
+* - multiplicação       * / // % 3º
+/ - Divisão                  + - 4º 
+** - Potência
+// - Divisão inteira
+% - Resto do divisão
+
+---------------------------- ---------------- --------------------------- ------------------------------------------------
+('oi'*10)
+
+RULES
+OI*5 = X
+
+'OI'*5 = OIOIOIOIOI
+
+'='*10 = '=========='
+
+print ('='*20) =  ==========
+
+'OI'+'OU' = OIOU
+
+'OI'+5 = X
+-------------------------- ------------------------- ------------------------- -------------------------------------------
+{:^15}
+
+Nome = input ('Qual seu nome ?')
+print ('Olá muito prazer em conhecelo {:>30}!'.format(Nome))
+                                                           Aplica 30 em espaçamento e > ou < ou ^ organiza a posição
+Olá muito prazer em conhecelo                       Jonathan!
+
+print('Olá muito prazer em conhecelo {:=>20}!'.format(Nome))
+                                                     Aplica o = no espaço pedido 'Pode ser usada qualquer caracte solo'
+Olá muito prazer em conhecelo =========== Jonathan!
+
+----------- ------------------------- ------- ---------------------------------------------- ---------------- ------------
+{:.2f}
+
+Matematica
+
+print ('A soma é {}, a multiplicação {} e a divisão e {:.2f}'.format(s, m, d))
+print ('A divisão inteira e {} a potência é {}'.format(di, p))
+
+Digite um valor:4
+Digite outro valor:3
+A soma é 7, a multiplicação 12 e a divisão e 1.33
+A divisão inteira e 1 a potência é 64
+
+"Ao colocar {:.nf} estou dizedendo para colocar somente n'numeros' flutuantes seguintes do ponto"
+Exemplo : se o n=3 seria 1.111 n=2 1.11 n=1 1.1 n=4 1.1111
+
+----------- - -------------------------- ---------------------- ----------------------------------------------------------
+, end='')
+
+print ('A soma é {}, a multiplicação {} e a divisão e {:.2f}'.format(s, m, d), end=' ')
+print ('A divisão inteira e {} a potência é {}'.format(di, p))
+
+A soma é 7, a multiplicação 12 e a divisão e 1.33 A divisão inteira e 1 a potência é 64
+
+, end='' 'Comando usado para não quebrar linha' - caso coloque algo no ,end'aqui' aparecerar na divisoria
+
+Exemplo : print ('A soma é {}, a multiplicação {} e a divisão e {:.2f}'.format(s, m, d), end='AQUI ')
+print ('A divisão inteira e {} a potência é {}'.format(di, p))
+
+A soma é 7, a multiplicação 12 e a divisão e 1.33 AQUI A divisão inteira e 1 a potência é 64
+
+------------------- ----------------------- ----------------------------------------- - - - --------------------------------
+n\
+
+print ('A soma é {},\n a mul\ntiplicação\n {} e a divisão e {:.2f}'.format(s, m, d))
+print ('A divisão inteira e {} a potência é {}'.format(di, p))
+
+A soma é 7,
+ a mul
+tiplicação
+ 12 e a divisão e 1.33
+A divisão inteira e 1 a potência é 64
+
+
+\n = Quebra de texto
+
+---------- ---------------------------- - - - - - - ---------------------- ------ ---------- ---------------------  --------
+
+
+
+
+
+
